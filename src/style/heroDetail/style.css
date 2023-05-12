@@ -1,0 +1,47 @@
+.heroImage {
+    overflow: visible;
+}
+
+.heroImage img {
+    overflow: visible;
+}
+
+@media (max-width: 1024px) {
+    .heroTitle {
+        order: 2;
+        width: 100%;
+    }
+
+    .heroImage {
+        order: 1;
+        width: 100%;
+        height: 450px;
+    }
+
+    .heroInfo {
+        order: 3;
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .table-para {
+        width: 100%;
+    }
+
+    .table1 {
+        width: 100%;
+    }
+
+    .table-buttons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+}
+
+.table-buttons button {
+    height: 50px;
+}
